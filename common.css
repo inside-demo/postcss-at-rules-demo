@@ -1,10 +1,7 @@
+@import "variables.css";
+
 @define-mixin add-gutters $gutter {
     &{
           margin: 0 $gutter;
     }
-}
-
-.container{
-    @mixin add-gutters 15px;
-    color: red;
 }

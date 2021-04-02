@@ -1,5 +1,6 @@
-@import './root.css';
+@import "common.css";
 
-.class-name {
-  @mixin mixinName var(--nested-var);
+.container{
+    @mixin add-gutters var(--gutters);
+    color: var(--color);
 }
